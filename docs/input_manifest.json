@@ -1,0 +1,27 @@
+[
+  {
+    "file": "data/inputs/Sentinel1A_2020-10-09_VV_VH.tif",
+    "bytes": 747021,
+    "sha256": "fa91183039835f81174fcf5c4f458d449953f3b695777843e2ef4a89186fb65b"
+  },
+  {
+    "file": "data/inputs/Sentinel1A_2020-10-21_VV_VH.tif",
+    "bytes": 751285,
+    "sha256": "be3cac25ba0fa560742bcb967b7c49e3f9678863501aaa2e2c78c41b1a8ed369"
+  },
+  {
+    "file": "data/inputs/bon_cheruvu_analysis_area.gpkg",
+    "bytes": 98304,
+    "sha256": "42dfe787f14d7187a318e7adc57cd280985bd4cfef65b778514e06c866008aae"
+  },
+  {
+    "file": "data/qgis_candidate_area_summary.gpkg",
+    "bytes": 106496,
+    "sha256": "bd5ff8e5e562f41df62776c4e14afa481552c41451df25c3dc589ed68d21a880"
+  },
+  {
+    "file": "data/qgis_water_change_candidates.tif",
+    "bytes": 420297,
+    "sha256": "8a8d2aed04d33ba6c12c7dadc2ff34b13c5cd50084cc594f2e4cdb369cc6d22a"
+  }
+]

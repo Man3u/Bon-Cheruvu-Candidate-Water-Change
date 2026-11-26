@@ -1,0 +1,70 @@
+{
+  "grid": {
+    "crs": "EPSG:32644",
+    "width": 467,
+    "height": 224,
+    "transform": [
+      10.0,
+      0.0,
+      229700.0,
+      0.0,
+      -10.0,
+      1934950.0
+    ],
+    "pixel_area_m2": 100.0
+  },
+  "sources": [
+    {
+      "file": "Sentinel1A_2020-10-09_VV_VH.tif",
+      "sha256": "fa91183039835f81174fcf5c4f458d449953f3b695777843e2ef4a89186fb65b",
+      "tags": {
+        "ACQUISITION_DATE": "2020-10-09",
+        "EARTH_ENGINE_ID": "COPERNICUS/S1_GRD/S1A_IW_GRDH_1SDV_20201009T003858_20201009T003923_034712_040B2C_3D53",
+        "ORBIT_PASS": "DESCENDING",
+        "RELATIVE_ORBIT": "165",
+        "AREA_OR_POINT": "Area"
+      },
+      "band_descriptions": [
+        "VV (dB)",
+        "VH (dB)"
+      ]
+    },
+    {
+      "file": "Sentinel1A_2020-10-21_VV_VH.tif",
+      "sha256": "be3cac25ba0fa560742bcb967b7c49e3f9678863501aaa2e2c78c41b1a8ed369",
+      "tags": {
+        "ACQUISITION_DATE": "2020-10-21",
+        "EARTH_ENGINE_ID": "COPERNICUS/S1_GRD/S1A_IW_GRDH_1SDV_20201021T003858_20201021T003923_034887_041153_BC76",
+        "ORBIT_PASS": "DESCENDING",
+        "RELATIVE_ORBIT": "165",
+        "AREA_OR_POINT": "Area"
+      },
+      "band_descriptions": [
+        "VV (dB)",
+        "VH (dB)"
+      ]
+    }
+  ],
+  "valid_pixel_count": 104608,
+  "qgis_mask_mismatches": 0,
+  "qgis_histogram_matches": true,
+  "polygon_counting_rule": "Pixel centre inside polygon (all_touched=False)",
+  "results": [
+    {
+      "scope": "whole_raster",
+      "valid_pixels": 104608,
+      "candidate_pixels": 251,
+      "noncandidate_pixels": 104357,
+      "candidate_area_m2": 25100.0,
+      "candidate_area_ha": 2.51
+    },
+    {
+      "scope": "analysis_polygon",
+      "valid_pixels": 1725,
+      "candidate_pixels": 168,
+      "noncandidate_pixels": 1557,
+      "candidate_area_m2": 16800.0,
+      "candidate_area_ha": 1.68
+    }
+  ]
+}

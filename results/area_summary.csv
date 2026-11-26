@@ -1,0 +1,3 @@
+scope,valid_pixels,candidate_pixels,noncandidate_pixels,candidate_area_m2,candidate_area_ha
+whole_raster,104608,251,104357,25100.0,2.51
+analysis_polygon,1725,168,1557,16800.0,1.68
